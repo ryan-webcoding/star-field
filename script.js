@@ -11,9 +11,9 @@ class Particle {
   constructor() {
     this.x = Math.random() * canvas.width;
     this.y = Math.random() * canvas.height;
-    this.size = (Math.random() * 5 + 2) * 0.4; // 40% smaller
-    this.speedX = (Math.random() - 0.5) * 0.1; // 30% slower
-    this.speedY = (Math.random() - 0.5) * 0.1; // 30% slower
+    this.size = (Math.random() * 5 + 2) * 0.4;
+    this.speedX = (Math.random() - 0.5) * 0.1;
+    this.speedY = (Math.random() - 0.5) * 0.1;
     this.life = Math.random() * 1000 + 1000;
 
     // 6% chance to be stationary
